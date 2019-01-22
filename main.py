@@ -57,7 +57,6 @@ def encrypt():
     return "<h1>" + form.format(encrypted_string) + "</h1>"
 
 
-
 @app.route("/")
 def index():
     return form.format('')
